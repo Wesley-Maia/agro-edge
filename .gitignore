@@ -1,0 +1,85 @@
+# =========================
+# AgroEdge - Global .gitignore
+# =========================
+
+# =========================
+# PlatformIO
+# =========================
+.pio/
+.pioenvs/
+.piolibdeps/
+.vscode/.browse.c_cpp.db*
+
+# =========================
+# VS Code
+# =========================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+.history/
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.env/
+.env.*
+*.env
+
+# =========================
+# Database
+# =========================
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Docker
+# =========================
+docker-compose.override.yml
+
+# =========================
+# Backup Files
+# =========================
+*.bak
+*.swp
+*.tmp
+
+# =========================
+# Node (caso use frontend futuro)
+# =========================
+node_modules/
+dist/
+build/
+
+# =========================
+# Test Coverage
+# =========================
+htmlcov/
+.coverage
+.pytest_cache/
+
+# =========================
+# Secrets / Keys
+# =========================
+secrets/
+*.pem
+*.key
