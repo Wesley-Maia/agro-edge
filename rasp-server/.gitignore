@@ -1,0 +1,83 @@
+# ===================================
+# 🐍 .gitignore para Projetos Python
+# ===================================
+
+# Ambiente virtual
+venv/
+.env/
+.env.bak/
+
+# Arquivos temporários e cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# Configurações locais
+*.env
+*.ini
+*.cfg
+
+# Notebooks temporários
+.ipynb_checkpoints/
+
+# Diretórios de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos do VS Code
+.vscode/
+.history/
+
+# Dados grandes (mantém só amostras pequenas)
+data/raw/
+data/temp/
+data/*.zip
+data/*.xlsx
+data/*.json
+database/**/*.xlsx
+
+# Build e distribuição
+build/
+dist/
+*.egg-info/
+
+# Arquivos de execução
+*.pid
+*.out
+
+# Jupyter Notebook e cache
+profile_default/
+ipython_config.py
+
+# Dash/Plotly (cache)
+assets/.cache/
+*.map
+
+# Arquivos ocultos de SO
+*.swp
+*.swo
+
+# Logs e relatórios
+logs/
+*.log
+*.tmp
+
+# Gráficos/imagens gerados
+*.png
+*.jpg
+*.jpeg
+*.svg
+plots/
+outputs/
+figures/
+
+# Dados sensíveis
+config/local_config.py
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
